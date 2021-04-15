@@ -7,5 +7,4 @@ Decentralized Autonomous Organizations (DAOs) lack from decentralization when it
 
 To prevent such issues, DAO's core team used to create private groups/channels to ensure DAO's membership, and user's selectivity.
 
-# DIPD Post
-DIPD represents a new `action` (equivalent to type meaning) of decentland post's transaction. A standard Tribus post has an `"action", "post"` tag to get identified as a normal post transaction. Unlike the classic-post, a DIPD post has an essential top-level tag: `"action", "DIPD-Init"`
+
