@@ -10,7 +10,7 @@
 // unaudited, neither tested
 
 // Author(s):
-// @charmful0x
+// charmful0x
 
 const DECENTLAND_SWC = "sew_MAXZIgmyEPzzOTkdAca7SQCL9XTCMfxY3KOE5-M"
 const MIN_DLT_AMOUNT = 1
@@ -43,7 +43,7 @@ export async function handle(state, action) {
     }
 
       dipds[pscContract] = votes
-      dipds[pscContract].push(caller)
+      dipds[pscContract].push( {"caller": caller} )
 
       return { state }
   }
